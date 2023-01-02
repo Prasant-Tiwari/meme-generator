@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    border: 2px solid green;
+    
+}
+.container{
+    width: 550px;
+    height: 550px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(90deg,#672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header img{
+    margin-left: -35px;
+}
+.header p{
+    color: white;
+    margin-right: -30px;
+}
+.main{
+   
+    width: 90%;
+   
+    margin: 3rem auto 0;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 45%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg,#672280 1.18%, #A626D3 100%);
+    color: white;
+    margin: 25px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+.meme-div{
+    width: 90%;
+    height: 268px;
+    margin: 0 auto;
+  position: relative;
+  text-align: center;
+  
+}
+.meme-image{
+    width: 100%;
+    height: 100%;
+}
+.meme-text{
+    font-size: 36px;
+   text-transform: uppercase;
+    font-weight: 900;
+}
+.top{
+    position: absolute;
+    top: 13px;
+    left: 27px;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+}
+.bottom{
+    position: absolute;
+    top: 143px;
+    left: 56px;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+}
